@@ -9,7 +9,6 @@ int main(int argc, char ** argv) {
     button.show();
     return app.exec();
     int i=0;
-    cout<<"OLALA CA MARCHE pas ..."<<endl;
     /*while(1){
         QApplication app (argc, argv);
         QPushButton button ("Hello world !");
