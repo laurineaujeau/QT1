@@ -8,6 +8,7 @@ int main(int argc, char ** argv) {
     QPushButton button ("Hello world !");
     button.show();
     return app.exec();
+    int i=0;
     /*while(1){
         QApplication app (argc, argv);
         QPushButton button ("Hello world !");
