@@ -2,6 +2,9 @@
 #include <QApplication>
 #include <QPushButton>
 #include <QWidget>
+#include "Window.h"
+#include "WindowTest.h"
+//#include "WindowTest.cpp"
 //THE BASE
 /*using namespace std;
 int main(int argc, char ** argv) {
@@ -30,9 +33,19 @@ int main(int argc, char ** argv) {
     button2.show();
     return app.exec();*/
     ///EXERCICE 3
-    QApplication app (argc, argv);
+    /*QApplication app (argc, argv);
     QWidget widget ;
+    widget.setFixedSize(100,50);
     widget.show();
+    QPushButton button2 ("fils");
+    button2.setGeometry(10,10,80,30);
+    button2.show();
+    return app.exec();*/
+    ///ERXERCICE 4
+    QApplication app (argc, argv);
+    /*Window w;
+    w.show();*/
+    windowtest();
     return app.exec();
 
     ///BONUS
